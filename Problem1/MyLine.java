@@ -16,7 +16,7 @@ public class MyLine {
         this.end = end;
     }
 
-    // Getters and Setters for begin and end points
+    // Getters and Setters
     public MyPoint getBegin() {
         return begin;
     }
@@ -33,7 +33,7 @@ public class MyLine {
         this.end = end;
     }
 
-    // Getters and Setters for individual coordinates of begin and end points
+    // Getters and Setters for individual
     public int getBeginX() {
         return begin.getX();
     }
@@ -76,16 +76,16 @@ public class MyLine {
         end.setY(y);
     }
 
-    // Method to calculate the length of the line using MyPoint's distance method
+    //Calculate distance
     public double getLength() {
         return begin.distance(end);
     }
 
-    // Method to calculate the gradient of the line in radians
+    // Calculate radians 
     public double getGradient() {
         int yDiff = end.getY() - begin.getY();
         int xDiff = end.getX() - begin.getX();
-        return Math.atan2(yDiff, xDiff); // returns gradient in radians
+        return Math.atan2(yDiff, xDiff);
     }
 
     @Override

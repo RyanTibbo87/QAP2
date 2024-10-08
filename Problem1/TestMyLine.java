@@ -16,7 +16,7 @@ public class TestMyLine {
         System.out.println("Length of Line 2: " + line2.getLength());
         System.out.println("Gradient of Line 2: " + line2.getGradient());
 
-        // Modify the begin and end points
+        // Change begin and end point
         line2.setBeginXY(1, 1);
         line2.setEndXY(4, 5);
         System.out.println("Modified Line 2: " + line2);

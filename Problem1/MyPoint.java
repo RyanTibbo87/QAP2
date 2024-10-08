@@ -26,7 +26,7 @@ public class MyPoint {
         this.y = y;
     }
 
-    // Method to calculate distance from this point to another point
+    // Calculate distance from one point to another
     public double distance(MyPoint another) {
         int xDiff = this.x - another.getX();
         int yDiff = this.y - another.getY();
